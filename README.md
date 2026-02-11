@@ -6,7 +6,8 @@ This project was created as a front-end portfolio project to demonstrate real-wo
 🔗 Repository:
 https://github.com/MMMAkees/foodiehub
 
-✨ Key Features
+✨ Key Features.
+
 🧭 1. Navigation & Layout
 
 Responsive sticky navigation bar
