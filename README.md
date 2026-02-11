@@ -1,15 +1,21 @@
-🚀 FoodieHub – Restaurant Website
+🍔 FoodieHub – Restaurant Website
 
 FoodieHub is a modern and fully responsive restaurant landing page built using HTML, CSS, Bootstrap 5, Bootstrap Icons and JavaScript.
-
 This project was created as a front-end portfolio project to demonstrate real-world UI design, responsive layouts, animations, and interactive components.
 
 🔗 Repository:
 https://github.com/MMMAkees/foodiehub
 
 ✨ Key Features
+🧭 1. Navigation & Layout
 
 Responsive sticky navigation bar
+
+Smooth scrolling navigation
+
+Mobile friendly responsive layout
+
+🍔 2. Food Ordering UI
 
 Order food modal popup form
 
@@ -17,32 +23,31 @@ Hero section with call-to-action buttons
 
 Signature menu with animated food cards
 
+🎁 3. Customer Experience
+
 Special offers section
 
 Customer testimonials cards
 
 Table reservation form
 
+⚡ 4. Modern Interactions
+
 Back-to-top floating button with smooth scrolling
 
-Modern hover effects and micro-interactions
+Modern hover effects & micro-interactions
 
 Professional footer with social media links
 
 Favicon (browser tab icon)
 
 🛠️ Technologies Used
-
-HTML5
-
-CSS3
-
-Bootstrap 5
-
-Bootstrap Icons
-
-JavaScript (Vanilla)
-
+No	Technology
+1️⃣	HTML5
+2️⃣	CSS3
+3️⃣	Bootstrap 5
+4️⃣	Bootstrap Icons
+5️⃣	JavaScript
 📂 Project Structure
 FoodieHub/
 │
@@ -55,7 +60,7 @@ FoodieHub/
         │   └── style.css
         └── images/
 
-▶️ How to Run the Project
+▶️ How To Run The Project
 1️⃣ Clone the repository
 git clone https://github.com/MMMAkees/foodiehub.git
 
@@ -66,42 +71,39 @@ cd foodiehub
 
 Open index.html in your browser.
 
-No installation required - this is a static website.
+No installation required — this is a static website.
 
 🎯 Learning Objectives
 
-This project was built to practice:
+This project helped practice:
 
-Bootstrap grid system & components
+Bootstrap grid & components
 
-Responsive web design principles
+Responsive web design
 
-UI/UX animation & hover effects
+UI/UX animations
 
-Real-world website layout structuring
+Real-world website layout
 
-Front-end portfolio development
+Front-end portfolio building
 
-GitHub project publishing
+GitHub Pages deployment
 
 👨‍💻 Author
 
 Mohamed Akees
 
-Connect with me:
+📧 akeesak15@gmail.com
 
-🌐 Facebook: https://www.facebook.com/mohamedakee15/
+🌐 https://www.facebook.com/mohamedakee15/
 
-📸 Instagram: https://www.instagram.com/mohamedakees/
+📸 https://www.instagram.com/mohamedakees/
 
-💼 LinkedIn: https://www.linkedin.com/in/mohamed-akees/
+💼 https://www.linkedin.com/in/mohamed-akees/
 
-📧 Email: akeesak15@gmail.com
+⭐ Support
 
-⭐ Show Your Support
-
-If you like this project, please give it a ⭐ on GitHub.
-It helps and motivates future improvements.
+If you like this project, please give it a ⭐ on GitHub 😊
 
 📜 License
 
