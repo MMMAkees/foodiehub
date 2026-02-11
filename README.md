@@ -42,13 +42,15 @@ Professional footer with social media links
 
 Favicon (browser tab icon)
 
-🛠️ Technologies Used
-No	Technology
+🛠️ Technologies Used.
+
 1️⃣	HTML5
 2️⃣	CSS3
 3️⃣	Bootstrap 5
 4️⃣	Bootstrap Icons
 5️⃣	JavaScript
+
+
 📂 Project Structure
 FoodieHub/
 │
