@@ -183,3 +183,29 @@ section{
   transform: scale(1.05);
   box-shadow: 0 35px 80px rgba(255,193,7,.15), 0 35px 80px rgba(220,53,69,.15);
 }
+/* BACK TO TOP BUTTON */
+#topBtn{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background: #dc3545;
+  color: white;
+  font-size: 22px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+  cursor: pointer;
+  transition: .3s ease;
+  z-index: 999;
+}
+
+#topBtn:hover{
+  background:#ff4d00;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(220,53,69,.4);
+}
