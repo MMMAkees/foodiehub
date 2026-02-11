@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+section{
+    scroll-margin-top: 80px;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  margin: 10px auto;
+  background-color: orangered;
+  border-radius: 10px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+a, button{
+  transition: all .3s ease;
+}
+.navbar .nav-link{
+  position: relative;
+}
+
+.navbar .nav-link::after{
+  content:"";
+  position:absolute;
+  left:0;
+  bottom:-5px;
+  width:0%;
+  height:3px;
+  background:#ff4d00;
+  transition:.3s;
+  border-radius:10px;
+}
+
+.navbar .nav-link:hover{
+  color:#ff4d00 !important;
+}
+
+.navbar .nav-link:hover::after{
+  width:100%;
+}
+.btn-danger{
+  transition: .3s;
+}
+
+.btn-danger:hover{
+  transform: translateY(-3px);
+  box-shadow:0 10px 25px rgba(255,0,0,0.35);
+}
+
+.btn-warning:hover{
+  background:#ff9800;
+  transform: translateY(-3px);
+  box-shadow:0 10px 25px rgba(255,165,0,0.35);
+}
+
+.btn-outline-light:hover{
+  background:white;
+  color:black;
+  transform: translateY(-3px);
+}
+#home img{
+  transition:.5s;
+}
+
+#home img:hover{
+  transform:scale(1.05);
+}
+.card{
+  border:none;
+  overflow:hidden;
+  transition:.4s;
+}
+
+.card img{
+  transition:.5s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.card:hover img{
+  transform:scale(1.08);
+}
+
+.card .btn-danger{
+  opacity:0;
+  transform:translateY(10px);
+  transition:.3s;
+}
+
+.card:hover .btn-danger{
+  opacity:1;
+  transform:translateY(0);
+}
+#offers .card{
+  transition:.4s;
+}
+
+#offers .card:hover{
+  background:#ff4d00 !important;
+  transform:translateY(-10px);
+}
+
+#offers .card:hover i,
+#offers .card:hover h4,
+#offers .card:hover p{
+  color:white !important;
+}
+#testimonials .card{
+  transition:.4s;
+}
+
+#testimonials .card:hover{
+  transform:translateY(-8px) scale(1.02);
+  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+.form-control:focus,
+.form-select:focus{
+  border-color:#ff4d00;
+  box-shadow:0 0 0 0.2rem rgba(255,77,0,0.2);
+}
+footer a{
+  width:40px;
+  height:40px;
+  background:#222;
+  color:white;
+  transition:.3s;
+}
+
+footer a:hover{
+  background:#ff4d00;
+  transform:translateY(-5px);
+  box-shadow:0 10px 20px rgba(255,77,0,0.4);
+}
+section{
+  animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+  from{
+    opacity:0;
+    transform:translateY(40px);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+#home{
+  position: relative;
+  overflow: hidden;
+}
+
+/* soft gradient layer */
+#home::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: radial-gradient(circle at top left, rgba(255,193,7,.18), transparent 45%),
+              radial-gradient(circle at bottom right, rgba(220,53,69,.18), transparent 45%);
+  pointer-events:none;
+}
+
+/* glowing border around hero image */
+#home img{
+  transition: .5s ease;
+  box-shadow: 0 25px 60px rgba(0,0,0,.35);
+}
+
+#home img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 35px 80px rgba(255,193,7,.15), 0 35px 80px rgba(220,53,69,.15);
+}
