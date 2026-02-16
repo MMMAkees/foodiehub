@@ -104,7 +104,7 @@ Mohamed Akees
 
 💼 https://www.linkedin.com/in/mohamed-akees/
 
-⭐ Support
+⭐ Support.
 
 If you like this project, please give it a ⭐ on GitHub 😊
 
