@@ -1,4 +1,4 @@
-🍔 FoodieHub – Restaurant Website
+🍔 FoodieHub – Restaurant Website.
 
 FoodieHub is a modern and fully responsive restaurant landing page built using HTML, CSS, Bootstrap 5, Bootstrap Icons and JavaScript.
 This project was created as a front-end portfolio project to demonstrate real-world UI design, responsive layouts, animations, and interactive components.
